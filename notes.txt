@@ -1,0 +1,8 @@
+most should work out of box after installing lazyvim
+
+You will have to install 'basedpyright' and 'roslyn' using mason (:MasonInstall "")
+
+Useful command: help lspconfig-all
+
+I disabled Go programming language because 'gopls' was failing to install using Mason
+  I dont use Go
