@@ -17,7 +17,8 @@ return {
     config = function()
       require("lspconfig").lua_ls.setup({})
       vim.lsp.enable("clangd")
-      vim.lsp.enable("basedpyright")
+      vim.lsp.enable("ruff")
+      -- vim.lsp.enable("basedpyright")
       vim.diagnostic.config({ virtual_text = true })
     end,
   },
